@@ -1,0 +1,28 @@
+{
+    "name": "lt\/weather",
+    "description": "A weather SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zuiqiangqishao",
+            "email": "727040917@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "phpunit/phpunit": "~6.0",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lt\\Weather\\": "./src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lt\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}
