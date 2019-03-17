@@ -5,14 +5,14 @@
  * Date: 16/3/2019
  * Time: 上午 11:05
  */
-namespace Lt\Weather\Test;
+namespace Yishui\Weather\Test;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Psr7\Response;
-use Lt\Weather\Exceptions\HttpException;
-use Lt\Weather\Exceptions\InvalidArgumentException;
-use Lt\Weather\Weather;
+use Yishui\Weather\Exceptions\HttpException;
+use Yishui\Weather\Exceptions\InvalidArgumentException;
+use Yishui\Weather\Weather;
 use Mockery\Matcher\AnyArgs;
 use PHPUnit\Framework\TestCase;
 

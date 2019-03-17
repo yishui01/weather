@@ -1,5 +1,5 @@
 <?php
-namespace Lt\Weather;
+namespace Yishui\Weather;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

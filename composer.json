@@ -1,5 +1,5 @@
 {
-    "name": "lt\/weather",
+    "name": "yishui\/weather",
     "description": "A weather SDK",
     "license": "MIT",
     "authors": [
@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Lt\\Weather\\": "./src"
+            "Yishui\\Weather\\": "./src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Lt\\Weather\\ServiceProvider"
+                "Yishui\\Weather\\ServiceProvider"
             ]
         }
     }

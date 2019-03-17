@@ -5,7 +5,7 @@
  * Date: 16/3/2019
  * Time: 上午 10:28
  */
-namespace Lt\Weather;
+namespace Yishui\Weather;
 
 use GuzzleHttp\Client;
 use Lt\Weather\Exceptions\Exception;
