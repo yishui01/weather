@@ -8,9 +8,8 @@
 namespace Yishui\Weather;
 
 use GuzzleHttp\Client;
-use Lt\Weather\Exceptions\Exception;
-use Lt\Weather\Exceptions\HttpException;
-use Lt\Weather\Exceptions\InvalidArgumentException;
+use Yishui\Weather\Exceptions\HttpException;
+use Yishui\Weather\Exceptions\InvalidArgumentException;
 
 class Weather
 {
@@ -30,6 +29,15 @@ class Weather
     public function setGuzzleOptions(array $options)
     {
         $this->guzzleOptions = $options;
+    }
+    public function getLiveWeather($city, $format = 'json')
+    {
+        return $this->getWeather($city, 'base', $format);
+    }
+
+    public function getForecastsWeather($city, $format = 'json')
+    {
+        return $this->getWeather($city, 'all', $format);
     }
 
     public function getWeather($city, string $type = "base", string $format = "json")
