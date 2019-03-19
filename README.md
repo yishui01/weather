@@ -10,7 +10,7 @@
 ## Installing
 
 ```shell
-$ composer require lt/weather -vvv
+$ composer require yishui/weather -vvv
 ```
 
 ## Contributing
